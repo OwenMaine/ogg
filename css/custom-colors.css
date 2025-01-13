@@ -1,0 +1,174 @@
+/* custom-colors.css */
+
+:root {
+    /* Primary Colors */
+    --primary-blue: #1a4d80 !important;      /* Deep Navy Blue - Trust & Professionalism */
+    --secondary-blue: #2977c5 !important;    /* Bright Blue - Energy & Reliability */
+    --accent-orange: #e67e22 !important;     /* Construction Orange - Industry & Safety */
+    
+    /* Neutral Colors */
+    --dark-gray: #2c3e50 !important;         /* Dark Gray - Strength & Stability */
+    --medium-gray: #7f8c8d !important;       /* Medium Gray - Professional & Modern */
+    --light-gray: #ecf0f1 !important;        /* Light Gray - Clean & Contemporary */
+    
+    /* Additional Colors */
+    --success-green: #27ae60 !important;     /* Green - Success & Growth */
+    --warning-yellow: #f1c40f !important;    /* Yellow - Caution & Attention */
+    --white: #ffffff !important;
+    --black: #333333 !important;
+  }
+  
+  /* Header & Navigation */
+  .ftco-navbar-light {
+    background-color: var(--primary-blue) !important;
+  }
+  
+  .ftco-navbar-light .navbar-brand {
+    color: var(--white) !important;
+  }
+  
+  .ftco-navbar-light .nav-link {
+    color: var(--white) !important;
+  }
+  
+  .ftco-navbar-light .nav-link:hover {
+    color: var(--warning-yellow) !important;
+  }
+  
+  /* Buttons */
+  .btn-primary {
+    background-color: var(--secondary-blue) !important;
+    border-color: var(--secondary-blue) !important;
+  }
+  
+  .btn-primary:hover {
+    background-color: var(--primary-blue) !important;
+    border-color: var(--primary-blue) !important;
+  }
+  
+  /* Service Section */
+  .services .icon {
+    background-color: var(--accent-orange) !important;
+  }
+  
+  .services:hover .icon {
+    background-color: var(--secondary-blue) !important;
+  }
+  
+  .section-title h2 {
+    color: var(--dark-gray) !important;
+  }
+  
+  /* Contact Form */
+  .contact-wrap {
+    background-color: var(--white) !important;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1) !important;
+  }
+  
+  .info-wrap {
+    background-color: var(--primary-blue) !important;
+  }
+  
+  .form-control {
+    border-color: var(--medium-gray) !important;
+  }
+  
+  .form-control:focus {
+    border-color: var(--secondary-blue) !important;
+    box-shadow: 0 0 5px rgba(41,119,197,0.3) !important;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: var(--dark-gray) !important;
+  }
+  
+  .footer h2, .footer h3 {
+    color: var(--white) !important;
+  }
+  
+  .footer p, .footer a {
+    color: var(--light-gray) !important;
+  }
+  
+  .footer a:hover {
+    color: var(--accent-orange) !important;
+  }
+  
+  /* Custom Classes */
+  .bg-primary {
+    background-color: var(--primary-blue) !important;
+  }
+  
+  .text-primary {
+    color: var(--primary-blue) !important;
+  }
+  
+  .border-primary {
+    border-color: var(--primary-blue) !important;
+  }
+  
+  /* Hero Section */
+  .hero-wrap {
+    background-color: var(--dark-gray) !important;
+  }
+  
+  .hero-wrap .overlay {
+    background-color: rgba(26, 77, 128, 0.7) !important;
+  }
+  
+  /* Project Section */
+  .work .desc {
+    background: rgba(26, 77, 128, 0.9) !important;
+  }
+  
+  .work:hover .desc {
+    background: rgba(230, 126, 34, 0.9) !important;
+  }
+  
+  /* Counter Section */
+  .ftco-counter {
+    background-color: var(--light-gray) !important;
+  }
+  
+  .ftco-counter .number {
+    color: var(--primary-blue) !important;
+  }
+  
+  /* Testimonials */
+  .testimony-wrap {
+    background-color: var(--white) !important;
+    border-left: 3px solid var(--accent-orange) !important;
+  }
+  
+  /* About Section */
+  .about-wrap {
+    background-color: var(--white) !important;
+  }
+  
+  .about-wrap .heading-section h2 {
+    color: var(--dark-gray) !important;
+  }
+  
+  /* Call to Action */
+  .ftco-appointment {
+    background-color: var(--primary-blue) !important;
+  }
+  
+  /* Utility Classes */
+  .text-white {
+    color: var(--white) !important;
+  }
+  
+  .bg-light {
+    background-color: var(--light-gray) !important;
+  }
+  
+  /* Hover Effects */
+  .hover-orange:hover {
+    color: var(--accent-orange) !important;
+  }
+  
+  .hover-blue:hover {
+    color: var(--secondary-blue) !important;
+  }
